@@ -11,7 +11,7 @@ function toggleColor(setter, value) {
     setter(value === "default" ? "primary" : "default")
 }
 
-export default function Ex15() {
+export default function Button1() {
 
     const [contained, setContained] = useState("default")
     const [text, setText] = useState("default")
@@ -20,7 +20,6 @@ export default function Ex15() {
 
   return (
     <>
-        <h3 style={{color: "red"}}>Ex 1.5</h3>
         <Grid container>
             <Grid 
                 item

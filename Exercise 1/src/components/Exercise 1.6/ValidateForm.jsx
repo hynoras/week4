@@ -6,14 +6,14 @@ import ShowData from './ShowData'
 const onSubmit = (v) =>
     alert('Submit value: ' + JSON.stringify(v, null, 2))
 
-function Ex16(){
+function ValidateForm(){
     const [formFields, setFormFields] = useState({})
     const [errors, setErrors] = useState({})
     const [valid, setValid] = useState()
     const [firstForm, setFirstForm] = useState(true)
 
     return (
-        <div className="Ex16">
+        <div className="ValidateForm">
             <nav>
                 <select
                     onChange={(evt) => 
@@ -61,4 +61,4 @@ function Ex16(){
     )
 }
 
-export default Ex16
+export default ValidateForm

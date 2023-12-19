@@ -7,8 +7,7 @@ const express = require('express');
 
 var app = express()
 const port = process.env.PORT
-//const connection_url = 'mongodb+srv://taturo252001:NDToan2501@cluster0.g9mdinl.mongodb.net/nguyenductoan'
-const connection_url = 'mongodb+srv://20521059:qa123456789@data.ui5jy9p.mongodb.net/?retryWrites=true&w=majority'
+const connection_url = 'mongodb+srv://hynoras:quang23022002@cluster0.hxredev.mongodb.net/?retryWrites=true&w=majority'
 app.use(express.json())
 app.use(cors())
 
